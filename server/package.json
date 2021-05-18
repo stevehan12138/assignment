@@ -1,0 +1,22 @@
+{
+  "name": "graphqlapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
+  },
+  "author": "Steve",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "apollo-datasource": "^0.9.0",
+    "apollo-server": "^2.24.0",
+    "graphql": "^15.5.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}
